@@ -17,8 +17,12 @@
         "symfony/css-selector": "^5.2"
     },
     "autoload": {
+        "files": [
+            "funcoes.php"
+        ],
         "psr-4": {
             "Alura\\BuscadorDeCursos\\": "src/"
         }
-    }
+    },
+    "license": "GPL 3.0"
 }
