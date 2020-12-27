@@ -1,0 +1,24 @@
+{
+    "name": "vfelipe-gomes/buscador-cursos-alura",
+    "description": "Projeto - Formacao PHP",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Vinícius Gomes",
+            "email": "vfelipe.gomes@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.2",
+        "symfony/dom-crawler": "^5.2",
+        "symfony/css-selector": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Alura\\BuscadorDeCursos\\": "src/"
+        }
+    }
+}
